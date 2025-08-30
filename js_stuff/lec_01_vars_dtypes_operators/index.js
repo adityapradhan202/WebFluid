@@ -112,7 +112,7 @@ console.log(`x1 == x2 gives ${x1 == x2}`);
 console.log(`x1 === x2 gives ${x1 === x2}`);
 console.log(`x1 !== x2 gives ${x1 !== x2}`);
 
-// Assignment operators -> =, +=, -=, etc 
+// Assignment operators =, /=, +=, -=, etc 
 // Logical operators:
 // AND &&
 // NOT !
@@ -120,7 +120,7 @@ console.log(`x1 !== x2 gives ${x1 !== x2}`);
 
 // We know how logical and or works with booleans
 // But what about non booleans?
-// Logical and, and logical or see things as truthsy, or falsy, end of the story
+// Logical 'and', and logical 'or' see things as truthsy, or falsy, end of the story
 // Values that are falsy: undefined, null, 0, false, "", '', NaN
 
 
@@ -137,3 +137,5 @@ console.log(2 || false || false  || true); // result should be true
 let age = 19;
 let approval = (age >= 18) ? "Approved" : "Not allowed!";
 console.log(`Approval: ${approval}`);
+
+// Study javascript's boolean chain rule
