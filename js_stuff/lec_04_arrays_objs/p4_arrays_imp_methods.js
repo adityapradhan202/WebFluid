@@ -58,3 +58,35 @@ let justStr = mixArr.filter(
 
 console.log("justStr:");
 console.log(justStr);
+
+// Reduce method in js
+// We use it rarely, but still
+let fNumbers = [4.5, 44.3, 1.13, 0.98, 1.35];
+let ans = fNumbers.reduce(
+    (acc, curr) => {
+        return acc + curr;
+    }
+);
+
+// here if we dont set anything accumulator becomes first element
+// current becomes second element
+// according to our code acc + curr will be retruned and stored in the acc
+// after that curr will move to the third element and so on
+
+console.log(ans);
+
+
+// Method to sort array
+fNumbers.sort();
+console.log("Sorted fNumbers:", fNumbers);
+
+let descNumbers = fNumbers.sort().reverse();
+console.log("In descending order:", descNumbers);
+
+// To get the index of a value we use indexOf method
+let sampleArr = [4, 5, 6];
+console.log("Index of 6:", sampleArr.indexOf(6));
+
+// Find method in array
+let res = sampleArr.find((num) => {return num % 5 === 0});
+console.log(res);
