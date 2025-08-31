@@ -45,4 +45,3 @@ console.log(obj2)
 delete obj.new;
 console.log("After deletion of new:");
 console.log(obj);
-

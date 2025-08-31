@@ -88,5 +88,9 @@ let sampleArr = [4, 5, 6];
 console.log("Index of 6:", sampleArr.indexOf(6));
 
 // Find method in array
-let res = sampleArr.find((num) => {return num % 5 === 0});
+let res = sampleArr.find(
+    (num) => {
+        return num % 5 === 0
+    }
+);
 console.log(res);
