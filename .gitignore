@@ -1,1 +1,5 @@
 /temp_code
+node_modules/
+*.png
+*.jpg
+*.jpeg

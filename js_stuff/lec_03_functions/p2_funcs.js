@@ -31,7 +31,7 @@ console.log(productPlusOne(4, 6));
 
 // Some difference between these three types of functions
 /*
-Traditional functions: Hoisted(Can be first even if defined later), just normal function
+Traditional functions: Hoisted(Can be used first even if defined later), just normal function
 Function expression: function is assigned to a variable, non hoisted, can be named or used anonmously, recommended to use when function is passed as an argument to other functions
 Arrow functions: shorter definition than function expressions, non hoisted
 

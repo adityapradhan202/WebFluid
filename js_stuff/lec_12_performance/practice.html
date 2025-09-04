@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0rem;
+            padding: 0rem;
+            box-sizing: border-box; 
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #heading-p{
+            font-size: 1.35rem;
+        }
+        #count{
+            margin: 1.2rem;
+            color: red;
+            font-size: 1.35rem;
+        }
+
+        .btn{
+            border: 0rem;
+            width: 10rem;
+            height: 3.4rem;
+            border-radius: 0.4rem;
+            background-color: rgb(237, 82, 82);
+            color: white;
+            font-size: 1.1rem;
+            margin: 0rem 0.3rem; /*top/bottom, left/right*/
+            transition: 0.1s ease-in;
+            cursor: pointer;
+
+        }
+
+        .btn:hover{
+            transform: scale(1.065);
+            background-color: rgb(240, 43, 43);
+        }
+    </style>
+</head>
+    <body>
+        <p id="heading-p">Count - O - Meter</p>
+        <p id="count">0</p>
+        <div id="buttons">
+            <button class="btn" id="decB">Decrement</button>
+            <button class="btn" id="incB">Increment</button>
+        </div>
+
+
+    </body>
+    <script src="practice.js"></script>
+</html>

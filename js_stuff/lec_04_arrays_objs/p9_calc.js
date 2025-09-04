@@ -20,7 +20,8 @@ function compute(func){
     const n1 = window.prompt("Enter first number:");
     const n2 = window.prompt("Enter second number:");
     let res = func(n1, n2);
-    console.log(`Result: ${res}`)
+    // console.log(`Result: ${res}`)
+    alert(`Result: ${res}`);
 }
 
 while(true){
